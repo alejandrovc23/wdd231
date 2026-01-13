@@ -1,0 +1,144 @@
+/* --------------COLOR SCHEME--------------
+terra cotta #E07A5F
+dark slate blue #3D405B
+*/
+
+/******************* SITE WIDE ********************/
+* {
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+/******************* HEADER ********************/
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+header span {
+    font-size: 1.2rem;
+    color: #3D405B;
+}
+
+
+/******************* HAMBURGUER NAVIGATION ********************/
+
+.hamburguer {
+    background: none;
+    border: none;
+    color: #3D405B;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 44px;
+    height: 44px;
+    font-size: 1.5rem;
+}
+
+.hamburguer::before {
+    content: "\2630";
+}
+
+.hamburguer.show::before {
+    content: "\00D7";
+}
+
+/******************* NAVIGATION MENU ********************/
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #3D405B;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navigation li a:hover {
+    background-color: #d66a4f;
+    color: white;
+}
+
+.navigation li.current a {
+    background-color: #E07A5F;
+    color: white;
+}
+
+.navigation li.current a:hover {
+    background-color: #d66a4f;
+}
+
+
+
+
+
+
+/******************* FOOTER ********************/
+
+footer {
+   background-color: #eee;
+   padding: 1rem 10px;
+   text-align: center;
+}
+
+
+.social {
+    display: flex;
+    justify-self: center;
+    column-gap: 8px;
+  
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #ccc solid 1px;
+    border-radius: 22px;
+}
+
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: #ddd;
+}

@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!--Style Sheets Here-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+
 </head>
+
 <body>
-    <h1>WDD 231 - Alejandro Valladares</h1>
+    <header>
+        <img src="images/home.svg" alt="Site Logo" width="1" height="1">
+        <span>Alejandro's Site Title</span>
+        <button id="ham-btn" class="hamburguer" aria-label="navigation"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">News & Events</a></li>
+            <li><a href="#">Dedicated Temples</a></li>
+            <li><a href="#">Announced Temples</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Welcome to My Site</h1>
+        <p>This is a sample paragraph to demonstrate the structure of the webpage.</p>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="16" height="16"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="Twitter" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
+            <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="GitHub" width="16" height="16"></a>
+        </div>
+        <p>&copy; 2024 Alejandro's Site. All rights reserved.</p>
+        <p>Last Updated: Jan 2026</p>
+    </footer>
+    <script src="scripts/navigation.js"></script>
 </body>
+
 </html>
