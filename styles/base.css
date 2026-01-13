@@ -110,9 +110,9 @@ header span {
 /******************* FOOTER ********************/
 
 footer {
-   background-color: #eee;
-   padding: 1rem 10px;
-   text-align: center;
+    background-color: #eee;
+    padding: 1rem 10px;
+    text-align: center;
 }
 
 
@@ -120,7 +120,7 @@ footer {
     display: flex;
     justify-self: center;
     column-gap: 8px;
-  
+
 }
 
 .social a {
@@ -141,4 +141,57 @@ footer {
 
 .social a:hover {
     background-color: #ddd;
+}
+
+/******************* MAIN ********************/
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#course-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+#course-buttons button {
+    padding: 0.5rem 1rem;
+    background-color: #3D405B;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#course-buttons button:hover {
+    background-color: #E07A5F;
+}
+
+#courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.course-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.course-card.completed {
+    background-color: #e0f7e0;
+    border-color: #4CAF50;
+}
+
+.course-card.completed h3 {
+    text-decoration: underline;
+}
+
+.course-card h3 {
+    margin-top: 0;
 }

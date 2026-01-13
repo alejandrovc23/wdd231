@@ -4,13 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Home page for WDD 231 course">
+    <meta name="author" content="Eliseo">
+    <title>WDD 231 - Home</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
     <!--Style Sheets Here-->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+    <!-- JavaScript files -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 
 </head>
 
@@ -22,26 +31,46 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li class="current"><a href="#">News & Events</a></li>
-            <li><a href="#">Dedicated Temples</a></li>
-            <li><a href="#">Announced Temples</a></li>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="final/index.html">Final</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Welcome to My Site</h1>
-        <p>This is a sample paragraph to demonstrate the structure of the webpage.</p>
+        <h1>Home</h1>
+        <section>
+            <h2>About</h2>
+            <p>Welcome to my WDD 231 home page. This is where I showcase my web development projects.</p>
+        </section>
+        <section id="courses">
+            <h2>Courses</h2>
+            <div id="course-buttons">
+                <button id="all">All Courses</button>
+                <button id="wdd">WDD Courses</button>
+                <button id="cse">CSE Courses</button>
+            </div>
+            <div id="courses-container"></div>
+            <p>Total Credits: <span id="total-credits"></span></p>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <p>Feel free to reach out via LinkedIn or GitHub.</p>
+        </section>
     </main>
     <footer>
         <div class="social">
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="Facebook" width="16" height="16"></a>
-            <a href="https://x.com/" target="_blank"><img src="images/twitter-x.svg" alt="Twitter" width="16" height="16"></a>
-            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" width="16" height="16"></a>
-            <a href="https://github.com/" target="_blank"><img src="images/github.svg" alt="GitHub" width="16" height="16"></a>
+            <a href="https://github.com/eliseo" target="_blank"><img src="images/github.svg" alt="GitHub" width="16"
+                    height="16"></a>
+            <a href="https://linkedin.com/in/eliseo" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"
+                    width="16" height="16"></a>
+            <a href="https://twitter.com/eliseo" target="_blank"><img src="images/twitter-x.svg" alt="Twitter"
+                    width="16" height="16"></a>
+            <a href="https://facebook.com/eliseo" target="_blank"><img src="images/facebook.svg" alt="Facebook"
+                    width="16" height="16"></a>
         </div>
-        <p>&copy; 2024 Alejandro's Site. All rights reserved.</p>
-        <p>Last Updated: Jan 2026</p>
+        <p>&copy; <span id="currentyear"></span> Eliseo. All rights reserved. Utah, USA</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
-    <script src="scripts/navigation.js"></script>
 </body>
 
 </html>
