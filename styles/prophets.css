@@ -1,0 +1,41 @@
+header {
+        text-align: center;
+        white-space: nowrap;
+}
+
+/* Prophets page styles */
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+#cards section {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#cards h2 {
+    margin: 10px 0;
+    color: #3D405B;
+    font-size: 1.2rem;
+}
+
+#cards p {
+    margin: 5px 0;
+    color: #E07A5F;
+    font-size: 0.9rem;
+}
+
+#cards img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}
