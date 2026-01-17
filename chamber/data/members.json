@@ -1,0 +1,65 @@
+[
+  {
+    "name": "InnovaTech",
+    "address": "Miraflores, Lima",
+    "phone": "+51 987 654 321",
+    "website": "https://innovatech.pe",
+    "image": "startup1.webp",
+    "membership": 3,
+    "description": "Technology solutions for growing startups."
+  },
+  {
+    "name": "GreenFuture",
+    "address": "San Isidro, Lima",
+    "phone": "+51 912 345 678",
+    "website": "https://greenfuture.pe",
+    "image": "startup2.webp",
+    "membership": 2,
+    "description": "Sustainable business consulting."
+  },
+  {
+    "name": "TalentUp",
+    "address": "Surco, Lima",
+    "phone": "+51 934 111 222",
+    "website": "https://talentup.pe",
+    "image": "startup3.webp",
+    "membership": 1,
+    "description": "Connecting talent with startups."
+  },
+  {
+    "name": "FinStart",
+    "address": "La Molina, Lima",
+    "phone": "+51 955 888 777",
+    "website": "https://finstart.pe",
+    "image": "startup4.webp",
+    "membership": 3,
+    "description": "Financial mentoring for entrepreneurs."
+  },
+  {
+    "name": "CodeLabs",
+    "address": "Barranco, Lima",
+    "phone": "+51 966 222 333",
+    "website": "https://codelabs.pe",
+    "image": "startup5.webp",
+    "membership": 2,
+    "description": "Software development startup."
+  },
+  {
+    "name": "MarketPro",
+    "address": "Jesús María, Lima",
+    "phone": "+51 988 444 555",
+    "website": "https://marketpro.pe",
+    "image": "startup6.webp",
+    "membership": 1,
+    "description": "Digital marketing for small businesses."
+  },
+  {
+    "name": "LaunchHub",
+    "address": "San Miguel, Lima",
+    "phone": "+51 977 666 999",
+    "website": "https://launchhub.pe",
+    "image": "startup7.webp",
+    "membership": 3,
+    "description": "Startup incubator and mentoring hub."
+  }
+]

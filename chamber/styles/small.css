@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #0a2540;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.controls button {
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
+#members.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+#members.list {
+  display: block;
+}
+
+.member {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.member img {
+  max-width: 100%;
+  height: auto;
+}
