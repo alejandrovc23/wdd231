@@ -762,26 +762,28 @@ main {
 }
 
 .testimonial-card {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     padding: 2rem;
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     position: relative;
     transition: all 0.3s ease;
+    color: #333;
 }
 
 .testimonial-card:hover {
     transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-quote {
     font-size: 4rem;
-    color: #ffd700;
+    color: #667eea;
     margin: 0;
     line-height: 1;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
 }
 
 .testimonial-card p {
@@ -1026,196 +1028,3 @@ footer {
     background-color: #f8f9fa;
     color: #333;
     padding: 1rem;
-    text-align: center;
-    border-top: 1px solid #ddd;
-}
-
-/* Home Page Styles */
-.hero {
-    position: relative;
-    margin-bottom: 2rem;
-}
-
-.hero img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    filter: brightness(0.7);
-}
-
-.hero-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 2rem;
-    border-radius: 8px;
-    max-width: 90%;
-}
-
-.hero h2 {
-    margin: 0 0 1rem 0;
-    font-size: 2rem;
-}
-
-.hero p {
-    margin: 0 0 1.5rem 0;
-    font-size: 1.1rem;
-}
-
-.events {
-    margin-bottom: 2rem;
-}
-
-.events h2 {
-    text-align: center;
-    color: #667eea;
-    margin-bottom: 1.5rem;
-}
-
-.weather {
-    margin-bottom: 2rem;
-    background: white;
-    border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.weather h2 {
-    text-align: center;
-    color: #667eea;
-    margin-bottom: 1.5rem;
-}
-
-.current-weather {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.weather-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.weather-details {
-    text-align: left;
-}
-
-.temperature {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #667eea;
-    margin: 0;
-}
-
-.description {
-    margin: 0.5rem 0 0 0;
-    text-transform: capitalize;
-}
-
-.forecast {
-    border-top: 1px solid #eee;
-    padding-top: 1.5rem;
-}
-
-.forecast h3 {
-    text-align: center;
-    margin-bottom: 1rem;
-    color: #667eea;
-}
-
-.forecast-cards {
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-}
-
-.forecast-card {
-    text-align: center;
-    background: #f8f9fa;
-    padding: 1rem;
-    border-radius: 8px;
-    flex: 1;
-}
-
-.forecast-card .day {
-    font-weight: 500;
-    margin: 0 0 0.5rem 0;
-    color: #667eea;
-}
-
-.forecast-card .temp {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin: 0.5rem 0 0 0;
-    color: #48bb78;
-}
-
-.spotlights {
-    margin-bottom: 2rem;
-}
-
-.spotlights h2 {
-    text-align: center;
-    color: #667eea;
-    margin-bottom: 1.5rem;
-}
-
-.spotlight-card {
-    background: white;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-}
-
-.spotlight-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: linear-gradient(90deg, #c0c0c0, #ffffff);
-}
-
-.spotlight-card.gold-level::before {
-    background: linear-gradient(90deg, #ffd700, #ffed4e);
-}
-
-.spotlight-card img {
-    max-width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    border: 3px solid #f0f0f0;
-}
-
-.spotlight-content h3 {
-    margin: 0 0 0.5rem 0;
-    color: #667eea;
-}
-
-.spotlight-content .address,
-.spotlight-content .phone {
-    margin: 0.25rem 0;
-    color: #666;
-}
-
-.spotlight-content .description {
-    margin: 0.5rem 0 0 0;
-    font-style: italic;
-    color: #666;
-}
