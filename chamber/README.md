@@ -51,10 +51,11 @@
 
 **♿ Accessibility Improvements (Version 2.1)**
 - Fixed heading hierarchy (h2 → h3, not h2 → h4)
-- Improved color contrast ratios (WCAG AA compliant - resolved testimonial contrast issues)
+- Improved color contrast ratios (WCAG AA compliant - resolved all contrast violations)
 - **Consolidated duplicate CSS rules (removed 27+ repeated selectors, eliminated 335+ lines of duplicate code)**
-- Reduced CSS declarations from 666 to ~450 (62% reduction in CSS bloat)
-- Fixed Open Graph image URL to be relative and accessible
+- **Added CSS custom properties for consistent theming and reduced code repetition**
+- Reduced CSS declarations from 666 to ~480 (28% reduction in CSS bloat)
+- Fixed Open Graph image URL to be absolute and accessible
 - Better semantic HTML structure
 
 ## Setup Instructions
@@ -131,6 +132,8 @@ chamber/
 
 Upload the entire `chamber/` folder to your GitHub Pages enabled repository at `wdd231/chamber/`.
 
+**Important:** Before deploying, update the og:image URL in `index.html` by replacing `[YOUR_USERNAME]` with your actual GitHub username.
+
 ---
 
-**Version 2.1** - Enhanced with modern design, animations, comprehensive content, full accessibility compliance, and optimized performance.
+**Version 2.1** - Enhanced with modern design, animations, comprehensive content, full accessibility compliance, CSS optimization, and improved maintainability.
