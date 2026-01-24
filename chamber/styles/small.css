@@ -1042,15 +1042,15 @@ main {
 }
 
 .member-level::before {
-    background: linear-gradient(90deg, #6c757d, #adb5bd);
+    background: var(--gradient-spotlight);
 }
 
 .silver-level::before {
-    background: linear-gradient(90deg, #c0c0c0, #ffffff);
+    background: var(--gradient-spotlight);
 }
 
 .gold-level::before {
-    background: linear-gradient(90deg, #ffd700, #ffed4e);
+    background: var(--gradient-gold);
 }
 
 .member img {

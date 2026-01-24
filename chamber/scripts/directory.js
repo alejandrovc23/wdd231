@@ -3,9 +3,18 @@ const gridBtn = document.querySelector("#grid");
 const listBtn = document.querySelector("#list");
 
 async function getMembers() {
-    const response = await fetch("data/members.json");
-    const data = await response.json();
-    displayMembers(data);
+    try {
+        const response = await fetch("data/members.json");
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        console.log('Members loaded:', data.length);
+        displayMembers(data);
+    } catch (error) {
+        console.error('Error loading members:', error);
+        membersContainer.innerHTML = '<p>Error loading member data. Please try again later.</p>';
+    }
 }
 
 function displayMembers(members) {
@@ -45,5 +54,8 @@ listBtn.addEventListener("click", () => {
     listBtn.classList.add("active");
     gridBtn.classList.remove("active");
 });
+
+// Set initial active state
+gridBtn.classList.add("active");
 
 getMembers();
