@@ -54,4 +54,9 @@
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 
+    dialog {
+        width: 90%;
+        max-width: 600px;
+    }
+
 }
