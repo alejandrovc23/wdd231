@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Lima Startup Chamber</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <style>
+        .thankyou {
+            max-width: 900px;
+            margin: 2.5rem auto;
+            padding: 1rem;
+        }
+
+        .form-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(0, 0, 0, 0.04)
+        }
+
+        .form-card h2 {
+            font-size: 2rem;
+            margin: 0 0 .5rem 0;
+            color: #ffffff;
+            background: linear-gradient(90deg, var(--primary-blue-dark), var(--primary-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            font-weight: 900;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+            text-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+        }
+
+        .form-card p.lead {
+            font-size: 1.15rem;
+            font-weight: 600;
+            text-align: center;
+            margin: 0 0 1rem 0;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 0.2px;
+        }
+
+        .summary {
+            background: linear-gradient(180deg, #ffffff, #fbfbff);
+            padding: 1rem;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+        }
+
+        .summary dl {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            gap: .75rem;
+            padding: 0;
+            margin: 0;
+            align-items: start;
+        }
+
+        .summary dt {
+            font-weight: 700;
+            color: var(--text-gray-dark)
+        }
+
+        .summary dd {
+            margin: 0;
+            color: var(--text-dark)
+        }
+    </style>
+    <script>
+        function showSubmission() {
+            const params = new URLSearchParams(window.location.search);
+            const fields = {
+                'First Name': 'firstName',
+                'Last Name': 'lastName',
+                'Email': 'email',
+                'Mobile': 'mobile',
+                'Business Name': 'organization',
+                'Timestamp': 'timestamp'
+            };
+            const container = document.getElementById('submission');
+            const dl = document.createElement('dl');
+            for (const [label, key] of Object.entries(fields)) {
+                const dt = document.createElement('dt'); dt.textContent = label;
+                const dd = document.createElement('dd'); dd.textContent = params.get(key) || '-';
+                dl.appendChild(dt); dl.appendChild(dd);
+            }
+            container.appendChild(dl);
+        }
+        window.addEventListener('DOMContentLoaded', showSubmission);
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Lima Startup Chamber</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+
+    <main class="thankyou">
+        <div class="form-card">
+            <h2>Thank you for your application</h2>
+            <p class="lead">We have received your submission. Below are the details you provided for required fields.
+            </p>
+
+            <section class="summary" id="submission" aria-live="polite">
+                <!-- JS will populate the required fields here -->
+            </section>
+
+            <p style="margin-top:1rem"><a class="cta-button primary" href="index.html">Return to home</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact: info@limastartupchamber.pe | +51 999 999 999</p>
+    </footer>
+</body>
+
+</html>
