@@ -48,11 +48,10 @@ form.join-form {
     text-align: center;
     margin: 1rem 0 1.25rem;
     background: none;
-    color: #ffffff;
+    color: #0f172a;
     font-weight: 900;
     letter-spacing: 0.6px;
     text-transform: uppercase;
-    text-shadow: 0 4px 14px rgba(0, 0, 0, 0.45);
 }
 
 @media (min-width: 900px) {
