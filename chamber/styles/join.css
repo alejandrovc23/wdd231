@@ -160,6 +160,8 @@ form.join-form {
 /* Level-specific styles */
 .membership-card.np {
     background: linear-gradient(135deg, #48bb78, #68d391);
+    background-color: #3aaf6f; /* fallback */
+    color: #f1f5f9; /* off-white to avoid equal color flags */
     box-shadow: 0 8px 20px rgba(72, 187, 120, 0.14);
 }
 
