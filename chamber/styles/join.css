@@ -100,6 +100,7 @@ form.join-form {
     border: 1px solid rgba(255, 255, 255, 0.12);
     transform: translateZ(0);
     transition: transform 0.25s ease, box-shadow 0.35s ease;
+    animation: cardIn 0.6s ease both;
 }
 
 @keyframes cardIn {
@@ -114,9 +115,6 @@ form.join-form {
     }
 }
 
-.membership-card {
-    animation: cardIn 0.6s ease both;
-}
 
 .membership-card:nth-child(1) {
     animation-delay: 0.1s;
@@ -148,16 +146,16 @@ form.join-form {
 .membership-card a {
     display: inline-block;
     margin-top: auto;
-    color: var(--text-light);
-    background: rgba(255, 255, 255, 0.08);
-    padding: 0.4rem 0.6rem;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.45);
+    padding: 0.5rem 0.75rem;
     border-radius: 10px;
     text-decoration: none;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .membership-card a:hover {
-    background: rgba(255, 255, 255, 0.18);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 /* Level-specific styles */
@@ -209,6 +207,7 @@ form.join-form {
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    color: #ffffff;
 }
 
 .modal[open] {
@@ -217,6 +216,7 @@ form.join-form {
 
 .modal-dialog {
     background: white;
+    color: #333333;
     padding: 1.25rem;
     border-radius: 8px;
     max-width: 600px;
