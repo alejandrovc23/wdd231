@@ -161,12 +161,13 @@ form.join-form {
 .membership-card.np {
     background: linear-gradient(135deg, #48bb78, #68d391);
     background-color: #3aaf6f; /* fallback */
-    color: #f1f5f9; /* off-white to avoid equal color flags */
+    color: #0f172a; /* dark text for contrast */
     box-shadow: 0 8px 20px rgba(72, 187, 120, 0.14);
 }
 
 .membership-card.bronze {
     background: linear-gradient(135deg, #b26a2e, #d99a5a);
+    color: #111827; /* ensure not equal to background */
     box-shadow: 0 10px 26px rgba(178, 106, 46, 0.14);
 }
 
