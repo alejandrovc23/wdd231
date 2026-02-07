@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lima Startup Chamber | Discover</title>
-    <meta name="description" content="Discover Lima: parks, markets, museums and coastal viewpoints.">
+    <meta name="description"
+        content="Discover Lima's highlights: parks, markets, museums, co-working hubs, gastronomy, and coastal viewpoints for visitors and businesses.">
+    <meta name="author" content="Eliseo">
+    <meta property="og:description"
+        content="Discover Lima's highlights: parks, markets, museums, co-working hubs, gastronomy, and coastal viewpoints for visitors and businesses.">
+    <meta property="og:image" content="https://username.github.io/wdd231/chamber/images/startup2.webp">
+    <meta property="og:url" content="https://username.github.io/wdd231/chamber/discover.html">
 
     <link rel="icon" href="images/cfavicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -13,7 +19,11 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/discover.css">
 
-    <script type="module" src="scripts/discover.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script type="module" src="scripts/discover.js"></script>
 </head>
 
 <body>
@@ -27,7 +37,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="discover-page">
         <section class="hero">
             <img src="images/startup2.webp" alt="Discover Lima" loading="lazy">
             <div class="hero-overlay"></div>
@@ -48,6 +58,7 @@
         </section>
 
         <section class="discover-gallery">
+            <h2>Places to Discover</h2>
             <div class="discover-grid" aria-live="polite">
                 <!-- JS will populate 8 cards here from data/discover.mjs -->
             </div>

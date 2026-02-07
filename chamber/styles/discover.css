@@ -1,6 +1,6 @@
 /* Discover page specific styles */
 /* tweak hero on this page to sit slightly shorter than full-screen */
-.hero {
+.discover-page .hero {
     min-height: 50vh;
 }
 
