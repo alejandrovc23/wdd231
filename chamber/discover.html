@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lima Startup Chamber | Discover</title>
+    <meta name="description" content="Discover Lima: parks, markets, museums and coastal viewpoints.">
+
+    <link rel="icon" href="images/cfavicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/discover.css">
+
+    <script type="module" src="scripts/discover.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Lima Startup Chamber</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="images/startup2.webp" alt="Discover Lima" loading="lazy">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-badge">Discover Lima</div>
+                <h2>Explore the best of <span class="highlight">our city</span></h2>
+                <p>Representative places and features that make Lima a great place for business and visitors.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="cta-button primary">Join the Chamber</a>
+                    <a href="directory.html" class="cta-button secondary">See Members</a>
+                </div>
+                <div class="visit-message" aria-live="polite"></div>
+            </div>
+            <div class="hero-scroll">
+                <span>Scroll to explore</span>
+                <div class="scroll-arrow">↓</div>
+            </div>
+        </section>
+
+        <section class="discover-gallery">
+            <div class="discover-grid" aria-live="polite">
+                <!-- JS will populate 8 cards here from data/discover.mjs -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: info@limastartupchamber.pe | +51 999 999 999</p>
+        <p>
+            © <span id="year"></span> Lima Startup Chamber |
+            Alejandro Valladares | WDD 231 |
+            Last Modified: <span id="lastModified"></span>
+        </p>
+    </footer>
+
+    <script src="scripts/dates.js" defer></script>
+    <!-- dates.js used on other pages to populate year/lastModified -->
+</body>
+
+</html>
