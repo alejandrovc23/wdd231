@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | FitTrack Gym Planner</title>
+    <link rel="icon" type="image/x-icon" href="images/fitrack.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">FitTrack</div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="routines-list.html">Routines</a></li>
+                <li><a href="routine.html">My Routine</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Title -->
+        <section class="hero" style="min-height: 300px; padding: 2rem;">
+            <div class="hero-content">
+                <h1>Get In Touch</h1>
+                <p>Have questions or feedback? We'd love to hear from you!</p>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="container contact-section">
+            <div class="contact-layout">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm" method="POST" aria-label="Contact form">
+                        <!-- Name Field -->
+                        <div class="form-group">
+                            <label for="fullName" class="required">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name"
+                                aria-required="true" aria-label="Full name">
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="form-group">
+                            <label for="email" class="required">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email address"
+                                aria-required="true" aria-label="Email address">
+                        </div>
+
+                        <!-- Phone Field -->
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"
+                                aria-label="Phone number">
+                        </div>
+
+                        <!-- Subject Field -->
+                        <div class="form-group">
+                            <label for="subject" class="required">Subject</label>
+                            <select id="subject" name="subject" required aria-required="true"
+                                aria-label="Message subject">
+                                <option value="">Select a subject</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="suggestion">Suggestion</option>
+                                <option value="bug">Bug Report</option>
+                                <option value="partnership">Partnership Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <!-- Message Field -->
+                        <div class="form-group">
+                            <label for="message" class="required">Message</label>
+                            <textarea id="message" name="message" required placeholder="Tell us what's on your mind..."
+                                aria-required="true" aria-label="Message content"></textarea>
+                        </div>
+
+                        <!-- Checkbox for Newsletter -->
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter"
+                                aria-label="Subscribe to our newsletter">
+                            <label for="newsletter" style="display: inline; margin-left: 0.5rem;">Subscribe to our
+                                newsletter for fitness tips and updates</label>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-large" aria-label="Submit contact form">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="info-card">
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@fittrack.com">info@fittrack.com</a></p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Hours</h3>
+                        <p>Monday - Friday: 9:00 AM - 5:00 PM (Mountain Time)</p>
+                        <p>Saturday: 10:00 AM - 3:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <p>Connect with FitTrack on social media for daily fitness motivation and updates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form Submission Display Modal -->
+        <div id="submissionModal" class="modal" role="dialog" aria-labelledby="submissionTitle" aria-hidden="true">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="submissionTitle">✓ Thank You!</h2>
+                    <button class="modal-close" id="closeSubmissionModal" aria-label="Close thank you modal">×</button>
+                </div>
+                <div id="submissionContent" class="modal-body">
+                    <!-- Submission details will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 FitTrack Gym Planner. All rights reserved.</p>
+        <p style="font-size: 0.9rem; color: var(--text-secondary);">Designed for Web Frontend Development - WDD 231</p>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="routines-list.html">Routines</a></li>
+            <li><a href="routine.html">My Routine</a></li>
+        </ul>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/contact.js"></script>
+</body>
+
+</html>

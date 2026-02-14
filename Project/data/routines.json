@@ -1,0 +1,328 @@
+{
+    "routines": [
+        {
+            "id": 1,
+            "name": "Full Body Starter",
+            "description": "Perfect for beginners looking to build a solid foundation",
+            "duration": "45 minutes",
+            "difficulty": "beginner",
+            "frequency": "3x per week",
+            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Full+Body+Starter",
+            "details": "This full body routine is designed for beginners and targets all major muscle groups. It focuses on compound movements with lighter weights to build proper form and conditioning.",
+            "exercises": [
+                {
+                    "name": "Dumbbell Squats",
+                    "sets": 3,
+                    "reps": "10-12",
+                    "rest": "60 seconds"
+                },
+                {
+                    "name": "Barbell Bench Press",
+                    "sets": 3,
+                    "reps": "8-10",
+                    "rest": "90 seconds"
+                },
+                {
+                    "name": "Barbell Rows",
+                    "sets": 3,
+                    "reps": "8-10",
+                    "rest": "90 seconds"
+                },
+                {
+                    "name": "Dumbbell Shoulder Press",
+                    "sets": 3,
+                    "reps": "10-12",
+                    "rest": "60 seconds"
+                },
+                {
+                    "name": "Planks",
+                    "sets": 3,
+                    "reps": "30-45 seconds",
+                    "rest": "45 seconds"
+                }
+            ],
+            "caloriesBurned": 240,
+            "benefits": [
+                "Builds strength",
+                "Improves endurance",
+                "Increases metabolism",
+                "Develops functional fitness"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Upper Body Strength",
+            "description": "Advanced routine focused on chest, back, shoulders, and arms",
+            "duration": "60 minutes",
+            "difficulty": "intermediate",
+            "frequency": "2x per week",
+            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Upper+Body+Strength",
+            "details": "This upper body routine is designed for intermediate lifters looking to build serious strength and muscle mass. It emphasizes compound movements with heavy weights and strategic isolation exercises.",
+            "exercises": [
+                {
+                    "name": "Barbell Bench Press",
+                    "sets": 4,
+                    "reps": "6-8",
+                    "rest": "120 seconds"
+                },
+                {
+                    "name": "Incline Dumbbell Press",
+                    "sets": 3,
+                    "reps": "8-10",
+                    "rest": "90 seconds"
+                },
+                {
+                    "name": "Barbell Rows",
+                    "sets": 4,
+                    "reps": "6-8",
+                    "rest": "120 seconds"
+                },
+                {
+                    "name": "Pull-ups",
+                    "sets": 3,
+                    "reps": "8-12",
+                    "rest": "90 seconds"
+                },
+                {
+                    "name": "Dumbbell Shoulder Press",
+                    "sets": 3,
+                    "reps": "8-10",
+                    "rest": "90 seconds"
+                },
+                {
+                    "name": "Bicep Curls",
+                    "sets": 3,
+                    "reps": "10-12",
+                    "rest": "60 seconds"
+                },
+                {
+                    "name": "Tricep Dips",
+                    "sets": 3,
+                    "reps": "8-10",
+                    "rest": "60 seconds"
+                }
+            ],
+            "caloriesBurned": 380,
+            "benefits": [
+                "Increases muscle mass",
+                "Builds upper body strength",
+                "Improves posture",
+                "Enhances definition"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Lower Body Power",
+            "description": "Intense leg workout for maximum strength and hypertrophy",
+            "duration": "55 minutes",
+            "difficulty": "advanced",
+            "frequency": "2x per week",
+            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Lower+Body+Power",
+            "details": "Designed for advanced lifters, this lower body routine focuses on building explosive power and significant muscle growth. Heavy compound movements are combined with isolation exercises for optimal results.",
+            "exercises": [
+                {
+                    "name": "Dumbbell Squats",
+                    "sets": 4,
+                    "reps": "6-8",
+                    "rest": "120 seconds"
+                },
+                {
+                    "name": "Leg Press",
+                    "sets": 3,
+                    "reps": "8-10",
+                    "rest": "90 seconds"
+                },
+                {
+                    "name": "Hamstring Curls",
+                    "sets": 3,
+                    "reps": "10-12",
+                    "rest": "75 seconds"
+                },
+                {
+                    "name": "Leg Curls",
+                    "sets": 3,
+                    "reps": "12-15",
+                    "rest": "60 seconds"
+                },
+                {
+                    "name": "Lateral Raises",
+                    "sets": 2,
+                    "reps": "15-20",
+                    "rest": "45 seconds"
+                }
+            ],
+            "caloriesBurned": 420,
+            "benefits": [
+                "Builds leg strength",
+                "Increases muscle size",
+                "Improves athletic performance",
+                "Burns significant calories"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Core & Conditioning",
+            "description": "Focused on core strength, ab definition, and cardiovascular fitness",
+            "duration": "40 minutes",
+            "difficulty": "intermediate",
+            "frequency": "3x per week",
+            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Core+Conditioning",
+            "details": "This core-focused routine combines traditional abs exercises with functional movements to build a strong, defined midsection while improving overall stability and conditioning.",
+            "exercises": [
+                {
+                    "name": "Planks",
+                    "sets": 3,
+                    "reps": "45-60 seconds",
+                    "rest": "45 seconds"
+                },
+                {
+                    "name": "Russian Twists",
+                    "sets": 3,
+                    "reps": "20 total",
+                    "rest": "60 seconds"
+                },
+                {
+                    "name": "Decline Sit-ups",
+                    "sets": 3,
+                    "reps": "15-20",
+                    "rest": "60 seconds"
+                },
+                {
+                    "name": "Mountain Climbers",
+                    "sets": 3,
+                    "reps": "30 seconds",
+                    "rest": "45 seconds"
+                },
+                {
+                    "name": "Leg Raises",
+                    "sets": 3,
+                    "reps": "12-15",
+                    "rest": "60 seconds"
+                }
+            ],
+            "caloriesBurned": 220,
+            "benefits": [
+                "Develops core strength",
+                "Improves posture",
+                "Builds ab definition",
+                "Enhances stability"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Total Body Hypertrophy",
+            "description": "Complete muscle-building routine hitting all body parts",
+            "duration": "75 minutes",
+            "difficulty": "advanced",
+            "frequency": "4x per week",
+            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Total+Hypertrophy",
+            "details": "This comprehensive routine is perfect for advanced lifters aiming for maximum muscle growth. It incorporates both compound movements and isolation exercises for complete development.",
+            "exercises": [
+                {
+                    "name": "Barbell Bench Press",
+                    "sets": 4,
+                    "reps": "6-8",
+                    "rest": "120 seconds"
+                },
+                {
+                    "name": "Barbell Rows",
+                    "sets": 4,
+                    "reps": "6-8",
+                    "rest": "120 seconds"
+                },
+                {
+                    "name": "Dumbbell Squats",
+                    "sets": 4,
+                    "reps": "8-10",
+                    "rest": "90 seconds"
+                },
+                {
+                    "name": "Deadlift",
+                    "sets": 3,
+                    "reps": "5-6",
+                    "rest": "150 seconds"
+                },
+                {
+                    "name": "Pull-ups",
+                    "sets": 3,
+                    "reps": "8-12",
+                    "rest": "90 seconds"
+                },
+                {
+                    "name": "Dumbbell Shoulder Press",
+                    "sets": 3,
+                    "reps": "8-10",
+                    "rest": "90 seconds"
+                },
+                {
+                    "name": "Cable Chest Flyes",
+                    "sets": 3,
+                    "reps": "10-12",
+                    "rest": "75 seconds"
+                },
+                {
+                    "name": "Bicep Curls",
+                    "sets": 3,
+                    "reps": "10-12",
+                    "rest": "60 seconds"
+                },
+                {
+                    "name": "Tricep Dips",
+                    "sets": 3,
+                    "reps": "8-10",
+                    "rest": "60 seconds"
+                }
+            ],
+            "caloriesBurned": 520,
+            "benefits": [
+                "Maximizes muscle growth",
+                "Builds overall strength",
+                "Complete body development",
+                "High calorie burn"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Quick HIIT Blast",
+            "description": "High-intensity interval training for maximum calorie burn",
+            "duration": "30 minutes",
+            "difficulty": "advanced",
+            "frequency": "2-3x per week",
+            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Quick+HIIT+Blast",
+            "details": "This high-intensity workout alternates between intense effort periods and recovery periods. Perfect for improving cardiovascular fitness and burning calories in minimal time.",
+            "exercises": [
+                {
+                    "name": "Dumbbell Squats",
+                    "sets": 5,
+                    "reps": "30 seconds on / 30 seconds off",
+                    "rest": "0 seconds"
+                },
+                {
+                    "name": "Push-ups",
+                    "sets": 5,
+                    "reps": "30 seconds on / 30 seconds off",
+                    "rest": "0 seconds"
+                },
+                {
+                    "name": "Mountain Climbers",
+                    "sets": 5,
+                    "reps": "30 seconds on / 30 seconds off",
+                    "rest": "0 seconds"
+                },
+                {
+                    "name": "Burpees",
+                    "sets": 5,
+                    "reps": "30 seconds on / 30 seconds off",
+                    "rest": "0 seconds"
+                }
+            ],
+            "caloriesBurned": 280,
+            "benefits": [
+                "High calorie burn",
+                "Improves cardiovascular health",
+                "Time-efficient",
+                "Boosts metabolism"
+            ]
+        }
+    ]
+}

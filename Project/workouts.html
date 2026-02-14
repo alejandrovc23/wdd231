@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workouts | FitTrack Gym Planner</title>
+    <link rel="icon" type="image/x-icon" href="images/fitrack.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/workouts.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">FitTrack</div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="routines-list.html">Routines</a></li>
+                <li><a href="routine.html">My Routine</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Title -->
+        <section class="hero" style="min-height: 300px; padding: 2rem;">
+            <div class="hero-content">
+                <h1>All Workouts</h1>
+                <p>Explore our comprehensive exercise library. Filter by muscle group and find the perfect workout for
+                    you.</p>
+            </div>
+        </section>
+
+        <!-- Filters and Search -->
+        <section class="filters-section container">
+            <div class="filters-container">
+                <input type="text" id="searchInput" placeholder="Search workouts..." class="search-input"
+                    aria-label="Search workouts">
+                <div class="filter-group">
+                    <label for="muscleFilter" class="filter-label">Filter by Muscle Group:</label>
+                    <select id="muscleFilter" aria-label="Filter workouts by muscle group">
+                        <option value="">All Muscle Groups</option>
+                        <option value="chest">Chest</option>
+                        <option value="back">Back</option>
+                        <option value="legs">Legs</option>
+                        <option value="shoulders">Shoulders</option>
+                        <option value="arms">Arms</option>
+                        <option value="core">Core</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="difficultyFilter" class="filter-label">Filter by Difficulty:</label>
+                    <select id="difficultyFilter" aria-label="Filter workouts by difficulty level">
+                        <option value="">All Difficulty Levels</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+                <button id="resetFilters" class="btn btn-small" aria-label="Reset all filters">Reset Filters</button>
+            </div>
+            <div class="favorites-button-container">
+                <button id="toggleFavorites" class="btn btn-secondary btn-small" aria-label="Toggle favorites view">
+                    ★ View Favorites (<span id="favCount">0</span>)
+                </button>
+            </div>
+        </section>
+
+        <!-- Results Count -->
+        <section class="container">
+            <p id="resultsCount" class="results-count" style="color: var(--text-secondary); font-size: 0.95rem;"></p>
+        </section>
+
+        <!-- Workouts Grid -->
+        <section class="container">
+            <div class="workouts-grid" id="workoutsGrid">
+                <!-- Workouts will be loaded here by JavaScript -->
+                <div
+                    style="grid-column: 1/-1; text-align: center; font-size: 1.1rem; color: var(--text-secondary); padding: 2rem;">
+                    Loading workouts...</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Workout Detail Modal -->
+    <div id="workoutModal" class="modal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Workout Details</h2>
+                <button class="modal-close" id="closeModal" aria-label="Close modal">×</button>
+            </div>
+            <div id="modalBody" class="modal-body">
+                <!-- Workout details will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 FitTrack Gym Planner. All rights reserved.</p>
+        <p style="font-size: 0.9rem; color: var(--text-secondary);">Designed for Web Frontend Development - WDD 231</p>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="routines-list.html">Routines</a></li>
+            <li><a href="routine.html">My Routine</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/workouts.js"></script>
+</body>
+
+</html>

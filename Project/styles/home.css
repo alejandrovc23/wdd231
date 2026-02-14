@@ -1,0 +1,135 @@
+/* =====================
+   HOME PAGE SPECIFIC STYLES
+   ===================== */
+
+.gym-facilities-section {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.gym-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--secondary-dark);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.gym-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--accent-green), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 5;
+}
+
+.gym-card:hover {
+    border-color: var(--accent-green);
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-8px);
+}
+
+.gym-card:hover::before {
+    opacity: 1;
+}
+
+.gym-image-container {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    background: var(--primary-dark);
+    position: relative;
+}
+
+.gym-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gym-card:hover .gym-image {
+    transform: scale(1.1);
+}
+
+.gym-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 255, 65, 0.1);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.gym-card:hover .gym-overlay {
+    opacity: 1;
+}
+
+.gym-card>h3,
+.gym-card>p {
+    transition: var(--transition);
+    z-index: 3;
+}
+
+.gym-card>h3 {
+    padding: 1rem 1rem 0.5rem 1rem;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+
+.gym-card>p {
+    padding: 0 1rem 1rem 1rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .gym-image-container {
+        height: 180px;
+    }
+
+    .gym-card>h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .gym-image-container {
+        height: 150px;
+    }
+
+    .gym-card>h3 {
+        font-size: 1rem;
+        padding: 0.8rem 0.8rem 0.4rem 0.8rem;
+    }
+
+    .gym-card>p {
+        padding: 0 0.8rem 0.8rem 0.8rem;
+        font-size: 0.85rem;
+    }
+}
+
+.gym-card>h3 {
+    margin-top: 40%;
+    font-size: 1rem;
+    padding: 0 0.75rem;
+    margin-bottom: 0.3rem;
+}
+
+.gym-card>p {
+    font-size: 0.85rem;
+    padding: 0 0.75rem 0.75rem 0.75rem;
+}

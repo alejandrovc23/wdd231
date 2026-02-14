@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Routine | FitTrack Gym Planner</title>
+    <link rel="icon" type="image/x-icon" href="images/fitrack.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/routine.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">FitTrack</div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="routines-list.html">Routines</a></li>
+                <li><a href="routine.html">My Routine</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Title -->
+        <section class="hero" style="min-height: 300px; padding: 2rem;">
+            <div class="hero-content">
+                <h1>Build Your Custom Routine</h1>
+                <p>Create personalized workout plans by selecting exercises. Your routine will be saved automatically.
+                </p>
+            </div>
+        </section>
+
+        <!-- Main Routine Builder Container -->
+        <section class="container routine-builder">
+            <div class="routine-layout">
+                <!-- Available Workouts Section -->
+                <div class="available-workouts-section">
+                    <h2>Available Workouts</h2>
+                    <div class="search-filter-container">
+                        <input type="text" id="searchWorkouts" placeholder="Search workouts..." class="search-input"
+                            aria-label="Search available workouts">
+                        <select id="muscleGroupFilter" aria-label="Filter by muscle group">
+                            <option value="">All Muscle Groups</option>
+                            <option value="chest">Chest</option>
+                            <option value="back">Back</option>
+                            <option value="legs">Legs</option>
+                            <option value="shoulders">Shoulders</option>
+                            <option value="arms">Arms</option>
+                            <option value="core">Core</option>
+                        </select>
+                    </div>
+                    <div class="workouts-list" id="availableWorkoutsList">
+                        <!-- Available workouts will be loaded here -->
+                        <p style="text-align: center; color: var(--text-secondary); padding: 2rem;">Loading workouts...
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="routine-divider"></div>
+
+                <!-- Custom Routine Section -->
+                <div class="custom-routine-section">
+                    <div class="routine-header">
+                        <h2>Your Routine</h2>
+                        <span id="routineCount" class="routine-count">0</span>
+                    </div>
+
+                    <div id="customRoutineList" class="custom-routine-list">
+                        <p style="text-align: center; color: var(--text-secondary); padding: 2rem;">
+                            No workouts in your routine yet. Add exercises from the available workouts list.
+                        </p>
+                    </div>
+
+                    <div class="routine-stats" id="routineStats" style="display: none;">
+                        <h3>Routine Summary</h3>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-label">Total Exercises</span>
+                                <span class="stat-value" id="totalExercises">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Total Calories</span>
+                                <span class="stat-value" id="totalCalories">0</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Avg Difficulty</span>
+                                <span class="stat-value" id="avgDifficulty">-</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="routine-actions">
+                        <button id="clearRoutineBtn" class="btn btn-secondary"
+                            aria-label="Clear all workouts from routine">
+                            Clear Routine
+                        </button>
+                        <button id="exportRoutineBtn" class="btn" aria-label="Export routine as text">
+                            Export Routine
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Export Modal -->
+        <div id="exportModal" class="modal" role="dialog" aria-labelledby="exportTitle" aria-hidden="true">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="exportTitle">Export Your Routine</h2>
+                    <button class="modal-close" id="closeExportModal" aria-label="Close export modal">×</button>
+                </div>
+                <div id="exportContent" class="modal-body"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 FitTrack Gym Planner. All rights reserved.</p>
+        <p style="font-size: 0.9rem; color: var(--text-secondary);">Designed for Web Frontend Development - WDD 231</p>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="routines-list.html">Routines</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/routine.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predefined Routines | FitTrack Gym Planner</title>
+    <link rel="icon" type="image/x-icon" href="images/fitrack.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/routines-list.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">FitTrack</div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="routines-list.html">Routines</a></li>
+                <li><a href="routine.html">My Routine</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Title -->
+        <section class="hero" style="min-height: 300px; padding: 2rem;">
+            <div class="hero-content">
+                <h1>Predefined Routines</h1>
+                <p>Browse our expertly-designed workout routines for all fitness levels. Choose one and customize it
+                    with FitTrack.</p>
+            </div>
+        </section>
+
+        <!-- Routines Grid -->
+        <section class="container routines-section">
+            <div class="routines-grid" id="routinesGrid">
+                <!-- Routines will be loaded here by JavaScript -->
+                <div
+                    style="grid-column: 1/-1; text-align: center; font-size: 1.1rem; color: var(--text-secondary); padding: 2rem;">
+                    Loading routines...</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Routine Detail Modal -->
+    <div id="routineModal" class="modal" role="dialog" aria-labelledby="routineModalTitle" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="routineModalTitle">Routine Details</h2>
+                <button class="modal-close" id="closeRoutineModal" aria-label="Close modal">×</button>
+            </div>
+            <div id="routineModalBody" class="modal-body">
+                <!-- Routine details will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 FitTrack Gym Planner. All rights reserved.</p>
+        <p style="font-size: 0.9rem; color: var(--text-secondary);">Designed for Web Frontend Development - WDD 231</p>
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="routine.html">My Routine</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/routines-list.js"></script>
+</body>
+
+</html>
