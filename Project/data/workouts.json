@@ -1,164 +1,164 @@
 {
-    "workouts": [
-        {
-            "id": 1,
-            "name": "Barbell Bench Press",
-            "muscleGroup": "chest",
-            "difficulty": "intermediate",
-            "equipment": "barbell",
-            "caloriesBurned": 145,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Bench+Press",
-            "description": "The barbell bench press is a compound movement that primarily targets the chest, shoulders, and triceps. Lie flat on a bench, grip the barbell slightly wider than shoulder-width, lower it to your chest, and press upward explosively."
-        },
-        {
-            "id": 2,
-            "name": "Deadlift",
-            "muscleGroup": "back",
-            "difficulty": "advanced",
-            "equipment": "barbell",
-            "caloriesBurned": 180,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Deadlift",
-            "description": "The deadlift is a fundamental compound exercise that works the entire posterior chain including back, glutes, and hamstrings. Stand with feet hip-width apart, grip the barbell, and lift by extending your hips and knees simultaneously."
-        },
-        {
-            "id": 3,
-            "name": "Dumbbell Squats",
-            "muscleGroup": "legs",
-            "difficulty": "beginner",
-            "equipment": "dumbbells",
-            "caloriesBurned": 160,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Squats",
-            "description": "Dumbbell squats are an excellent lower body exercise. Hold dumbbells at shoulder height, feet shoulder-width apart, lower your hips back and down until thighs are parallel to the ground, then drive through heels to stand."
-        },
-        {
-            "id": 4,
-            "name": "Pull-ups",
-            "muscleGroup": "back",
-            "difficulty": "advanced",
-            "equipment": "pull-up bar",
-            "caloriesBurned": 120,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Pull%2Dups",
-            "description": "Pull-ups are a classic bodyweight exercise that primarily targets the latissimus dorsi, biceps, and back muscles. Grip the bar with hands slightly wider than shoulder-width and pull yourself up until your chin is above the bar."
-        },
-        {
-            "id": 5,
-            "name": "Dumbbell Shoulder Press",
-            "muscleGroup": "shoulders",
-            "difficulty": "intermediate",
-            "equipment": "dumbbells",
-            "caloriesBurned": 135,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Shoulder+Press",
-            "description": "The dumbbell shoulder press is an excellent exercise for building shoulder strength and stability. Sit or stand, hold dumbbells at shoulder height, and press them overhead in a controlled motion until arms are fully extended."
-        },
-        {
-            "id": 6,
-            "name": "Hamstring Curls",
-            "muscleGroup": "legs",
-            "difficulty": "beginner",
-            "equipment": "machine",
-            "caloriesBurned": 90,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Hamstrings",
-            "description": "Lying hamstring curls isolate the hamstring muscles. Lie face down on the machine, position your legs under the pad, and curl your legs up toward your glutes, then slowly return to the starting position."
-        },
-        {
-            "id": 7,
-            "name": "Barbell Rows",
-            "muscleGroup": "back",
-            "difficulty": "intermediate",
-            "equipment": "barbell",
-            "caloriesBurned": 155,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Rows",
-            "description": "Barbell rows are a compound movement that builds back thickness and strength. Bend forward at the hips slightly, grip the barbell, and pull it toward your ribs in a controlled manner, squeezing your back muscles."
-        },
-        {
-            "id": 8,
-            "name": "Tricep Dips",
-            "muscleGroup": "arms",
-            "difficulty": "intermediate",
-            "equipment": "dip bar",
-            "caloriesBurned": 110,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Tricep+Dips",
-            "description": "Tricep dips are an excellent bodyweight exercise for the triceps. Place hands on a bench or dip bar behind you, lower your body until arms are bent at 90 degrees, then push back up to the starting position."
-        },
-        {
-            "id": 9,
-            "name": "Leg Press",
-            "muscleGroup": "legs",
-            "difficulty": "beginner",
-            "equipment": "machine",
-            "caloriesBurned": 175,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Leg+Press",
-            "description": "The leg press machine is excellent for building lower body strength without excessive spinal loading. Sit in the machine, place feet on the platform, lower the weight by bending knees, then push back up powerfully."
-        },
-        {
-            "id": 10,
-            "name": "Bicep Curls",
-            "muscleGroup": "arms",
-            "difficulty": "beginner",
-            "equipment": "dumbbells",
-            "caloriesBurned": 85,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Bicep+Curls",
-            "description": "Dumbbell bicep curls are a classic arm exercise. Stand with feet shoulder-width apart, hold dumbbells at sides with palms facing forward, and curl them up toward shoulders, maintaining control throughout the movement."
-        },
-        {
-            "id": 11,
-            "name": "Cable Chest Flyes",
-            "muscleGroup": "chest",
-            "difficulty": "intermediate",
-            "equipment": "machine",
-            "caloriesBurned": 105,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Cable+Flyes",
-            "description": "Cable chest flyes provide constant tension on the chest muscles throughout the movement. Stand in the center of the cable machine, grab handles, and bring them together in front of your chest in a controlled arc motion."
-        },
-        {
-            "id": 12,
-            "name": "Lateral Raises",
-            "muscleGroup": "shoulders",
-            "difficulty": "beginner",
-            "equipment": "dumbbells",
-            "caloriesBurned": 75,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Lateral+Raises",
-            "description": "Lateral raises target the lateral deltoids. Stand with dumbbells at your sides, palms facing inward, and raise them out to the sides until arms are parallel to the ground, then lower them back down."
-        },
-        {
-            "id": 13,
-            "name": "Leg Curls",
-            "muscleGroup": "legs",
-            "difficulty": "beginner",
-            "equipment": "machine",
-            "caloriesBurned": 95,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Leg+Curls",
-            "description": "Machine leg curls isolate the hamstring muscles. Sit in the machine with legs extended, place feet under the pad, and curl your legs up to bring the pad toward your glutes, then control the return."
-        },
-        {
-            "id": 14,
-            "name": "Incline Dumbbell Press",
-            "muscleGroup": "chest",
-            "difficulty": "intermediate",
-            "equipment": "dumbbells",
-            "caloriesBurned": 140,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Incline+Press",
-            "description": "The incline dumbbell press targets the upper chest and front shoulders. Set a bench to an incline, sit back with dumbbells at shoulder height, and press them upward and slightly forward to full extension."
-        },
-        {
-            "id": 15,
-            "name": "Planks",
-            "muscleGroup": "core",
-            "difficulty": "beginner",
-            "equipment": "bodyweight",
-            "caloriesBurned": 65,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Planks",
-            "description": "Planks are a fundamental core exercise that engages the abdominals, obliques, and stabilizer muscles. Hold a push-up position with forearms on the ground, keep your body straight, and maintain the position for time."
-        },
-        {
-            "id": 16,
-            "name": "Russian Twists",
-            "muscleGroup": "core",
-            "difficulty": "intermediate",
-            "equipment": "medicine ball",
-            "caloriesBurned": 80,
-            "image": "https://via.placeholder.com/500x400/1a1f3a/00ff41?text=Russian+Twists",
-            "description": "Russian twists strengthen the obliques and core. Sit with knees bent, hold a weight at chest level, lean back slightly, and twist your torso side to side, bringing the weight toward the ground on each side."
-        }
-    ]
+  "workouts": [
+    {
+      "id": 1,
+      "name": "Barbell Bench Press",
+      "muscleGroup": "chest",
+      "difficulty": "intermediate",
+      "equipment": "barbell",
+      "caloriesBurned": 145,
+      "image": "images/BarbellBenchPress.webp",
+      "description": "The barbell bench press is a compound movement that primarily targets the chest, shoulders, and triceps. Lie flat on a bench, grip the barbell slightly wider than shoulder-width, lower it to your chest, and press upward explosively."
+    },
+    {
+      "id": 2,
+      "name": "Deadlift",
+      "muscleGroup": "back",
+      "difficulty": "advanced",
+      "equipment": "barbell",
+      "caloriesBurned": 180,
+      "image": "images/Deadlift.webp",
+      "description": "The deadlift is a fundamental compound exercise that works the entire posterior chain including back, glutes, and hamstrings. Stand with feet hip-width apart, grip the barbell, and lift by extending your hips and knees simultaneously."
+    },
+    {
+      "id": 3,
+      "name": "Dumbbell Squats",
+      "muscleGroup": "legs",
+      "difficulty": "beginner",
+      "equipment": "dumbbells",
+      "caloriesBurned": 160,
+      "image": "images/DumbbellSquats.webp",
+      "description": "Dumbbell squats are an excellent lower body exercise. Hold dumbbells at shoulder height, feet shoulder-width apart, lower your hips back and down until thighs are parallel to the ground, then drive through heels to stand."
+    },
+    {
+      "id": 4,
+      "name": "Pull-ups",
+      "muscleGroup": "back",
+      "difficulty": "advanced",
+      "equipment": "pull-up bar",
+      "caloriesBurned": 120,
+      "image": "images/Pull-ups.webp",
+      "description": "Pull-ups are a classic bodyweight exercise that primarily targets the latissimus dorsi, biceps, and back muscles. Grip the bar with hands slightly wider than shoulder-width and pull yourself up until your chin is above the bar."
+    },
+    {
+      "id": 5,
+      "name": "Dumbbell Shoulder Press",
+      "muscleGroup": "shoulders",
+      "difficulty": "intermediate",
+      "equipment": "dumbbells",
+      "caloriesBurned": 135,
+      "image": "images/DumbbellShoulderPress.webp",
+      "description": "The dumbbell shoulder press is an excellent exercise for building shoulder strength and stability. Sit or stand, hold dumbbells at shoulder height, and press them overhead in a controlled motion until arms are fully extended."
+    },
+    {
+      "id": 6,
+      "name": "Hamstring Curls",
+      "muscleGroup": "legs",
+      "difficulty": "beginner",
+      "equipment": "machine",
+      "caloriesBurned": 90,
+      "image": "images/HamstringCurls.webp",
+      "description": "Lying hamstring curls isolate the hamstring muscles. Lie face down on the machine, position your legs under the pad, and curl your legs up toward your glutes, then slowly return to the starting position."
+    },
+    {
+      "id": 7,
+      "name": "Barbell Rows",
+      "muscleGroup": "back",
+      "difficulty": "intermediate",
+      "equipment": "barbell",
+      "caloriesBurned": 155,
+      "image": "images/BarbellRows.webp",
+      "description": "Barbell rows are a compound movement that builds back thickness and strength. Bend forward at the hips slightly, grip the barbell, and pull it toward your ribs in a controlled manner, squeezing your back muscles."
+    },
+    {
+      "id": 8,
+      "name": "Tricep Dips",
+      "muscleGroup": "arms",
+      "difficulty": "intermediate",
+      "equipment": "dip bar",
+      "caloriesBurned": 110,
+      "image": "images/TricepDips.webp",
+      "description": "Tricep dips are an excellent bodyweight exercise for the triceps. Place hands on a bench or dip bar behind you, lower your body until arms are bent at 90 degrees, then push back up to the starting position."
+    },
+    {
+      "id": 9,
+      "name": "Leg Press",
+      "muscleGroup": "legs",
+      "difficulty": "beginner",
+      "equipment": "machine",
+      "caloriesBurned": 175,
+      "image": "images/LegPress.webp",
+      "description": "The leg press machine is excellent for building lower body strength without excessive spinal loading. Sit in the machine, place feet on the platform, lower the weight by bending knees, then push back up powerfully."
+    },
+    {
+      "id": 10,
+      "name": "Bicep Curls",
+      "muscleGroup": "arms",
+      "difficulty": "beginner",
+      "equipment": "dumbbells",
+      "caloriesBurned": 85,
+      "image": "images/BicepCurls.webp",
+      "description": "Dumbbell bicep curls are a classic arm exercise. Stand with feet shoulder-width apart, hold dumbbells at sides with palms facing forward, and curl them up toward shoulders, maintaining control throughout the movement."
+    },
+    {
+      "id": 11,
+      "name": "Cable Chest Flyes",
+      "muscleGroup": "chest",
+      "difficulty": "intermediate",
+      "equipment": "machine",
+      "caloriesBurned": 105,
+      "image": "images/Cable Chest Flyes.webp",
+      "description": "Cable chest flyes provide constant tension on the chest muscles throughout the movement. Stand in the center of the cable machine, grab handles, and bring them together in front of your chest in a controlled arc motion."
+    },
+    {
+      "id": 12,
+      "name": "Lateral Raises",
+      "muscleGroup": "shoulders",
+      "difficulty": "beginner",
+      "equipment": "dumbbells",
+      "caloriesBurned": 75,
+      "image": "images/Lateral Raises.webp",
+      "description": "Lateral raises target the lateral deltoids. Stand with dumbbells at your sides, palms facing inward, and raise them out to the sides until arms are parallel to the ground, then lower them back down."
+    },
+    {
+      "id": 13,
+      "name": "Leg Curls",
+      "muscleGroup": "legs",
+      "difficulty": "beginner",
+      "equipment": "machine",
+      "caloriesBurned": 95,
+      "image": "images/LegCurls.webp",
+      "description": "Machine leg curls isolate the hamstring muscles. Sit in the machine with legs extended, place feet under the pad, and curl your legs up to bring the pad toward your glutes, then control the return."
+    },
+    {
+      "id": 14,
+      "name": "Incline Dumbbell Press",
+      "muscleGroup": "chest",
+      "difficulty": "intermediate",
+      "equipment": "dumbbells",
+      "caloriesBurned": 140,
+      "image": "images/Incline Dumbbell Press.webp",
+      "description": "The incline dumbbell press targets the upper chest and front shoulders. Set a bench to an incline, sit back with dumbbells at shoulder height, and press them upward and slightly forward to full extension."
+    },
+    {
+      "id": 15,
+      "name": "Planks",
+      "muscleGroup": "core",
+      "difficulty": "beginner",
+      "equipment": "bodyweight",
+      "caloriesBurned": 65,
+      "image": "images/Planks.webp",
+      "description": "Planks are a fundamental core exercise that engages the abdominals, obliques, and stabilizer muscles. Hold a push-up position with forearms on the ground, keep your body straight, and maintain the position for time."
+    },
+    {
+      "id": 16,
+      "name": "Russian Twists",
+      "muscleGroup": "core",
+      "difficulty": "intermediate",
+      "equipment": "medicine ball",
+      "caloriesBurned": 80,
+      "image": "images/RussianTwists.webp",
+      "description": "Russian twists strengthen the obliques and core. Sit with knees bent, hold a weight at chest level, lean back slightly, and twist your torso side to side, bringing the weight toward the ground on each side."
+    }
+  ]
 }

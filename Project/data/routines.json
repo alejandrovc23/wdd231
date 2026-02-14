@@ -7,7 +7,7 @@
             "duration": "45 minutes",
             "difficulty": "beginner",
             "frequency": "3x per week",
-            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Full+Body+Starter",
+            "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='350'%3E%3Crect fill='%231a1f3a' width='640' height='350'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%2300ff41' font-size='32' font-weight='bold' font-family='Arial'%3EFull Body Starter%3C/text%3E%3C/svg%3E",
             "details": "This full body routine is designed for beginners and targets all major muscle groups. It focuses on compound movements with lighter weights to build proper form and conditioning.",
             "exercises": [
                 {
@@ -56,7 +56,7 @@
             "duration": "60 minutes",
             "difficulty": "intermediate",
             "frequency": "2x per week",
-            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Upper+Body+Strength",
+            "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='350'%3E%3Crect fill='%231a1f3a' width='640' height='350'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%2300ff41' font-size='32' font-weight='bold' font-family='Arial'%3EUpper Body Strength%3C/text%3E%3C/svg%3E",
             "details": "This upper body routine is designed for intermediate lifters looking to build serious strength and muscle mass. It emphasizes compound movements with heavy weights and strategic isolation exercises.",
             "exercises": [
                 {
@@ -117,7 +117,7 @@
             "duration": "55 minutes",
             "difficulty": "advanced",
             "frequency": "2x per week",
-            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Lower+Body+Power",
+            "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='350'%3E%3Crect fill='%231a1f3a' width='640' height='350'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%2300ff41' font-size='32' font-weight='bold' font-family='Arial'%3ELower Body Power%3C/text%3E%3C/svg%3E",
             "details": "Designed for advanced lifters, this lower body routine focuses on building explosive power and significant muscle growth. Heavy compound movements are combined with isolation exercises for optimal results.",
             "exercises": [
                 {
@@ -166,7 +166,7 @@
             "duration": "40 minutes",
             "difficulty": "intermediate",
             "frequency": "3x per week",
-            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Core+Conditioning",
+            "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='350'%3E%3Crect fill='%231a1f3a' width='640' height='350'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%2300ff41' font-size='32' font-weight='bold' font-family='Arial'%3ECore Conditioning%3C/text%3E%3C/svg%3E",
             "details": "This core-focused routine combines traditional abs exercises with functional movements to build a strong, defined midsection while improving overall stability and conditioning.",
             "exercises": [
                 {
@@ -215,7 +215,7 @@
             "duration": "75 minutes",
             "difficulty": "advanced",
             "frequency": "4x per week",
-            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Total+Hypertrophy",
+            "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='350'%3E%3Crect fill='%231a1f3a' width='640' height='350'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%2300ff41' font-size='32' font-weight='bold' font-family='Arial'%3ETotal Hypertrophy%3C/text%3E%3C/svg%3E",
             "details": "This comprehensive routine is perfect for advanced lifters aiming for maximum muscle growth. It incorporates both compound movements and isolation exercises for complete development.",
             "exercises": [
                 {
@@ -288,7 +288,7 @@
             "duration": "30 minutes",
             "difficulty": "advanced",
             "frequency": "2-3x per week",
-            "image": "https://via.placeholder.com/640x350/1a1f3a/00ff41?text=Quick+HIIT+Blast",
+            "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='640' height='350'%3E%3Crect fill='%231a1f3a' width='640' height='350'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='%2300ff41' font-size='32' font-weight='bold' font-family='Arial'%3EQuick HIIT Blast%3C/text%3E%3C/svg%3E",
             "details": "This high-intensity workout alternates between intense effort periods and recovery periods. Perfect for improving cardiovascular fitness and burning calories in minimal time.",
             "exercises": [
                 {
