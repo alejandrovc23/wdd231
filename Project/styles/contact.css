@@ -6,6 +6,16 @@
     margin: 2rem 0;
 }
 
+.hero-contact {
+    min-height: 300px;
+    padding: 2rem;
+}
+
+.newsletter-label {
+    display: inline;
+    margin-left: 0.5rem;
+}
+
 .contact-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -198,15 +208,14 @@
 }
 
 .social-links a {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     background: linear-gradient(135deg, var(--accent-green), var(--accent-green-light));
     color: var(--primary-dark);
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: 700;
     font-size: 1.2rem;
     transition: var(--transition);
@@ -295,6 +304,11 @@
     display: block;
 }
 
+.footer-note {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
 /* =====================
    RESPONSIVE DESIGN
    ===================== */
@@ -355,10 +369,6 @@
     .contact-info h2,
     .info-card {
         padding: 1rem;
-    }
-
-    .form-group {
-        gap: 0.3rem;
     }
 
     .form-group label {

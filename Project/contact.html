@@ -4,9 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact FitTrack Gym Planner for questions and feedback. Get in touch with our team for fitness guidance and support.">
+    <meta name="author" content="Eliseo">
+    <meta property="og:title" content="Contact Us | FitTrack Gym Planner">
+    <meta property="og:description"
+        content="Get in touch with FitTrack. Send us your questions, feedback, or partnership inquiries.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fittrack.example.com/project/contact.html">
+    <meta property="og:image" content="https://fittrack.example.com/project/images/fittrack-og.png">
     <title>Contact Us | FitTrack Gym Planner</title>
     <!-- Favicon -->
     <link rel="icon" href="images/fitrack.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/contact.css">
 </head>
@@ -32,7 +44,7 @@
 
     <main>
         <!-- Page Title -->
-        <section class="hero" style="min-height: 300px; padding: 2rem;">
+        <section class="hero hero-contact">
             <div class="hero-content">
                 <h1>Get In Touch</h1>
                 <p>Have questions or feedback? We'd love to hear from you!</p>
@@ -50,14 +62,14 @@
                         <div class="form-group">
                             <label for="fullName" class="required">Full Name</label>
                             <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name"
-                                aria-required="true" aria-label="Full name">
+                                aria-label="Full name">
                         </div>
 
                         <!-- Email Field -->
                         <div class="form-group">
                             <label for="email" class="required">Email Address</label>
                             <input type="email" id="email" name="email" required placeholder="Enter your email address"
-                                aria-required="true" aria-label="Email address">
+                                aria-label="Email address">
                         </div>
 
                         <!-- Phone Field -->
@@ -70,8 +82,7 @@
                         <!-- Subject Field -->
                         <div class="form-group">
                             <label for="subject" class="required">Subject</label>
-                            <select id="subject" name="subject" required aria-required="true"
-                                aria-label="Message subject">
+                            <select id="subject" name="subject" required aria-label="Message subject">
                                 <option value="">Select a subject</option>
                                 <option value="feedback">Feedback</option>
                                 <option value="suggestion">Suggestion</option>
@@ -85,14 +96,14 @@
                         <div class="form-group">
                             <label for="message" class="required">Message</label>
                             <textarea id="message" name="message" required placeholder="Tell us what's on your mind..."
-                                aria-required="true" aria-label="Message content"></textarea>
+                                aria-label="Message content"></textarea>
                         </div>
 
                         <!-- Checkbox for Newsletter -->
                         <div class="form-group checkbox-group">
                             <input type="checkbox" id="newsletter" name="newsletter"
                                 aria-label="Subscribe to our newsletter">
-                            <label for="newsletter" style="display: inline; margin-left: 0.5rem;">Subscribe to our
+                            <label for="newsletter" class="newsletter-label">Subscribe to our
                                 newsletter for fitness tips and updates</label>
                         </div>
 
@@ -142,7 +153,7 @@
 
     <footer>
         <p>&copy; 2026 FitTrack Gym Planner. All rights reserved.</p>
-        <p style="font-size: 0.9rem; color: var(--text-secondary);">Designed for Web Frontend Development - WDD 231</p>
+        <p class="footer-note">Designed for Web Frontend Development - WDD 231</p>
         <ul class="footer-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="workouts.html">Workouts</a></li>

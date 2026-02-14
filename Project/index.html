@@ -4,9 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="FitTrack Gym Planner - your ultimate fitness companion. Explore workouts, create routines, and achieve your fitness goals.">
+    <meta name="author" content="Eliseo">
+    <meta property="og:title" content="FitTrack Gym Planner - Your Ultimate Fitness Companion">
+    <meta property="og:description"
+        content="Build your perfect workout routine with FitTrack. Explore exercises, create routines, achieve fitness goals.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fittrack.example.com/project/index.html">
+    <meta property="og:image" content="https://fittrack.example.com/project/images/fittrack-og.png">
     <title>FitTrack Gym Planner - Your Ultimate Fitness Companion</title>
     <!-- Favicon -->
     <link rel="icon" href="images/fitrack.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
 </head>
@@ -42,41 +54,40 @@
         </section>
 
         <!-- Featured Workouts Section -->
-        <section class="container" style="margin-top: 4rem;">
+        <section class="container section-spacing">
             <h2 class="text-center">Featured Workouts</h2>
-            <p class="text-center" style="color: var(--text-secondary); margin-bottom: 2rem;">Discover some of our most
-                popular exercises</p>
+            <p class="text-center text-secondary descriptor-margin">Discover some of our most popular exercises</p>
             <div class="grid grid-3" id="featuredWorkouts">
                 <!-- Featured workouts will be loaded here by JavaScript -->
-                <div style="grid-column: 1/-1; text-align: center; font-size: 1.1rem; color: var(--text-secondary);">
-                    Loading featured workouts...</div>
+                <div class="loading-placeholder">Loading featured workouts...</div>
+                Loading featured workouts...
+            </div>
             </div>
         </section>
 
         <!-- Call to Action Section -->
-        <section class="container"
-            style="margin-top: 4rem; padding: 3rem; background: linear-gradient(135deg, rgba(0, 255, 65, 0.1), rgba(0, 255, 65, 0.05)); border: 2px solid var(--accent-green); border-radius: 8px; text-align: center;">
-            <h2 style="margin-bottom: 1rem;">Ready to Build Your Routine?</h2>
-            <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Visit our workouts page to explore all exercises,
+        <section class="container cta-section">
+            <h2>Ready to Build Your Routine?</h2>
+            <p>Visit our workouts page to explore all exercises,
                 filter by muscle group, and create your personalized fitness plan.</p>
             <a href="workouts.html" class="btn btn-large">View All Workouts</a>
         </section>
 
         <!-- Info Section -->
-        <section class="container" style="margin-top: 4rem;">
+        <section class="container section-spacing">
             <div class="grid grid-3">
                 <div class="card">
-                    <h3 style="color: var(--accent-green);">📊 Explore</h3>
+                    <h3 class="text-accent">📊 Explore</h3>
                     <p>Browse over 16 different exercises with detailed descriptions, difficulty levels, and calorie
                         burn information.</p>
                 </div>
                 <div class="card">
-                    <h3 style="color: var(--accent-green);">⭐ Favorites</h3>
+                    <h3 class="text-accent">⭐ Favorites</h3>
                     <p>Save your favorite workouts and access them anytime. Your preferences are automatically saved
                         locally.</p>
                 </div>
                 <div class="card">
-                    <h3 style="color: var(--accent-green);">💪 Build</h3>
+                    <h3 class="text-accent">💪 Build</h3>
                     <p>Create personalized workout routines, add or remove exercises, and maintain your custom fitness
                         plan.</p>
                 </div>
@@ -84,9 +95,9 @@
         </section>
 
         <!-- Gym Facilities Section -->
-        <section class="container" style="margin-top: 4rem; margin-bottom: 4rem;">
+        <section class="container gym-facilities-section">
             <h2 class="text-center">Our Gym Facilities</h2>
-            <p class="text-center" style="color: var(--text-secondary); margin-bottom: 2rem;">State-of-the-art equipment
+            <p class="text-center text-secondary descriptor-margin">State-of-the-art equipment
                 and spaces designed for your success</p>
             <div class="grid grid-3">
                 <div class="gym-card">
@@ -95,8 +106,8 @@
                             alt="Weight Training Area" class="gym-image">
                         <div class="gym-overlay"></div>
                     </div>
-                    <h3 style="color: var(--accent-green);">Weight Training</h3>
-                    <p style="color: var(--text-secondary);">Complete set of dumbbells, barbells, and weight machines
+                    <h3 class="text-accent">Weight Training</h3>
+                    <p class="text-secondary">Complete set of dumbbells, barbells, and weight machines
                         for all strength levels.</p>
                 </div>
                 <div class="gym-card">
@@ -105,8 +116,8 @@
                             alt="Cardio Equipment" class="gym-image">
                         <div class="gym-overlay"></div>
                     </div>
-                    <h3 style="color: var(--accent-green);">Cardio Equipment</h3>
-                    <p style="color: var(--text-secondary);">Modern treadmills, ellipticals, and stationary bikes for
+                    <h3 class="text-accent">Cardio Equipment</h3>
+                    <p class="text-secondary">Modern treadmills, ellipticals, and stationary bikes for
                         cardiovascular training.</p>
                 </div>
                 <div class="gym-card">
@@ -115,8 +126,8 @@
                             alt="Free Weights & Cables" class="gym-image">
                         <div class="gym-overlay"></div>
                     </div>
-                    <h3 style="color: var(--accent-green);">Free Weights & Cables</h3>
-                    <p style="color: var(--text-secondary);">Extensive range of free weights and cable machines for
+                    <h3 class="text-accent">Free Weights & Cables</h3>
+                    <p class="text-secondary">Extensive range of free weights and cable machines for
                         targeted workouts.</p>
                 </div>
                 <div class="gym-card">
@@ -125,8 +136,8 @@
                             alt="Strength Training" class="gym-image">
                         <div class="gym-overlay"></div>
                     </div>
-                    <h3 style="color: var(--accent-green);">Strength Machines</h3>
-                    <p style="color: var(--text-secondary);">Professional-grade machines targeting every major muscle
+                    <h3 class="text-accent">Strength Machines</h3>
+                    <p class="text-secondary">Professional-grade machines targeting every major muscle
                         group safely.</p>
                 </div>
                 <div class="gym-card">
@@ -135,8 +146,8 @@
                             alt="Classes & Training" class="gym-image">
                         <div class="gym-overlay"></div>
                     </div>
-                    <h3 style="color: var(--accent-green);">Group Classes</h3>
-                    <p style="color: var(--text-secondary);">HIIT, spinning, yoga, and more with certified instructors
+                    <h3 class="text-accent">Group Classes</h3>
+                    <p class="text-secondary">HIIT, spinning, yoga, and more with certified instructors
                         and community.</p>
                 </div>
                 <div class="gym-card">
@@ -145,18 +156,17 @@
                             alt="Personal Training" class="gym-image">
                         <div class="gym-overlay"></div>
                     </div>
-                    <h3 style="color: var(--accent-green);">Personal Training</h3>
-                    <p style="color: var(--text-secondary);">Expert trainers available for personalized coaching and
+                    <h3 class="text-accent">Personal Training</h3>
+                    <p class="text-secondary">Expert trainers available for personalized coaching and
                         workout plans.</p>
                 </div>
             </div>
         </section>
 
         <!-- Predefined Routines CTA -->
-        <section class="container"
-            style="margin-bottom: 4rem; padding: 3rem; background: linear-gradient(135deg, rgba(0, 255, 65, 0.1), rgba(0, 255, 65, 0.05)); border: 2px solid var(--accent-green); border-radius: 8px; text-align: center;">
-            <h2 style="margin-bottom: 1rem;">Get Started with Proven Routines</h2>
-            <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">Explore our collection of expertly-designed workout
+        <section class="container cta-section cta-section-bottom">
+            <h2>Get Started with Proven Routines</h2>
+            <p>Explore our collection of expertly-designed workout
                 routines for all fitness levels, from beginner to advanced.</p>
             <a href="routines-list.html" class="btn btn-large">Browse Predefined Routines</a>
         </section>
@@ -164,7 +174,7 @@
 
     <footer>
         <p>&copy; 2026 FitTrack Gym Planner. All rights reserved.</p>
-        <p style="font-size: 0.9rem; color: var(--text-secondary);">Designed for Web Frontend Development - WDD 231</p>
+        <p class="footer-note">Designed for Web Frontend Development - WDD 231</p>
         <ul class="footer-links">
             <li><a href="workouts.html">Workouts</a></li>
             <li><a href="routines-list.html">Routines</a></li>

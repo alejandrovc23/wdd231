@@ -2,6 +2,58 @@
    HOME PAGE SPECIFIC STYLES
    ===================== */
 
+/* Section spacing utility classes */
+.section-spacing {
+    margin-top: 4rem;
+}
+
+.section-spacing-bottom {
+    margin-bottom: 4rem;
+}
+
+/* Text color utilities */
+.text-accent {
+    color: var(--accent-green);
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+/* CTA Section */
+.cta-section {
+    margin-top: 4rem;
+    padding: 3rem;
+    background: linear-gradient(135deg, rgba(0, 255, 65, 0.1), rgba(0, 255, 65, 0.05));
+    border: 2px solid var(--accent-green);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cta-section h2 {
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.cta-section-bottom {
+    margin-bottom: 4rem;
+}
+
+.descriptor-margin {
+    margin-bottom: 2rem;
+}
+
+.loading-placeholder {
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
 .gym-facilities-section {
     margin-top: 4rem;
     margin-bottom: 4rem;
