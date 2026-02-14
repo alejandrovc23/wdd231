@@ -45,21 +45,10 @@
     gap: 1.5rem;
 }
 
-.form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
 .form-group label {
     font-weight: 600;
     color: var(--text-primary);
     font-size: 0.95rem;
-}
-
-.form-group .required::after {
-    content: ' *';
-    color: var(--accent-green);
 }
 
 .form-group input,
